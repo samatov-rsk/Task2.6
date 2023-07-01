@@ -18,8 +18,8 @@ public class UserDaoImpl implements UserDAO {
 
     @Override
     public List<User> getAllUsers() {
-        String jpql = "select u from User u"; //не jpql, а getAllQuery ili prosto query
-        TypedQuery<User> query = entityManager.createQuery(jpql,User.class);
+        String getAllQuery = "select u from User u"; //не jpql, а getAllQuery ili prosto query
+        TypedQuery<User> query = entityManager.createQuery(getAllQuery,User.class);
         return query.getResultList();
     }
 

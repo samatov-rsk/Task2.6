@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import web.dao.UserDAO;
 import web.model.User;
+
 import java.util.List;
 
 @Service
@@ -40,6 +41,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void updateUser(long id, User user) {
-        userDAO.updateUser(id,user);
+        userDAO.updateUser(id, user);
     }
 }
