@@ -1,6 +1,6 @@
 package web.model;
 
-import javax.persistence.*;
+import javax.persistence.*; //BOOOOOOOЙ
 
 @Entity
 @Table(name = "users")

@@ -22,7 +22,7 @@ public class UserController {
 
     @GetMapping()
     public String index(Model model) {
-        List userList = userService.getAllUsers();
+        List userList = userService.getAllUsers(); //где дженерик? коллекции без дженериков - плохо!
         model.addAttribute("users", userList);
         return "index";
     }

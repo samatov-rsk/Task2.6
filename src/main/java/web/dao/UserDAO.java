@@ -1,6 +1,6 @@
 package web.dao;
 import web.model.User;
-import java.util.List;
+import java.util.List; //попробуй прожать контральтэль
 
 public interface UserDAO {
 

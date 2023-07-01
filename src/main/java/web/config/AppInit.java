@@ -2,7 +2,7 @@ package web.config;
 import org.springframework.web.filter.HiddenHttpMethodFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
+import javax.servlet.ServletException; //попробуй нажать кнтро+альт+L
 
 public class AppInit extends AbstractAnnotationConfigDispatcherServletInitializer {
 
